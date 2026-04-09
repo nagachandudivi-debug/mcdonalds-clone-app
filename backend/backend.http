@@ -1,0 +1,7 @@
+@backend_HostAddress = http://localhost:5087
+
+### Sample menu (JSON)
+GET {{backend_HostAddress}}/api/menu
+Accept: application/json
+
+###
