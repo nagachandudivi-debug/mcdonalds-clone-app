@@ -26,3 +26,17 @@ C:\Users\nagud\OneDrive\Desktop\McDonald\backend\obj\Debug\net8.0\refint\backend
 C:\Users\nagud\OneDrive\Desktop\McDonald\backend\obj\Debug\net8.0\backend.pdb
 C:\Users\nagud\OneDrive\Desktop\McDonald\backend\obj\Debug\net8.0\backend.genruntimeconfig.cache
 C:\Users\nagud\OneDrive\Desktop\McDonald\backend\obj\Debug\net8.0\ref\backend.dll
+C:\Users\nagud\OneDrive\Desktop\McDonald\backend\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\nagud\OneDrive\Desktop\McDonald\backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\nagud\OneDrive\Desktop\McDonald\backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\nagud\OneDrive\Desktop\McDonald\backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\nagud\OneDrive\Desktop\McDonald\backend\obj\Debug\net8.0\backend.csproj.AssemblyReference.cache
+C:\Users\nagud\OneDrive\Desktop\McDonald\backend\obj\Debug\net8.0\backend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\nagud\OneDrive\Desktop\McDonald\backend\obj\Debug\net8.0\backend.sourcelink.json
+C:\Users\nagud\OneDrive\Desktop\McDonald\backend\obj\Debug\net8.0\backend.csproj.Up2Date
+C:\Users\nagud\OneDrive\Desktop\McDonald\backend\bin\Debug\net8.0\publish\web.config
+C:\Users\nagud\OneDrive\Desktop\McDonald\backend\bin\Debug\net8.0\publish\appsettings.Development.json
+C:\Users\nagud\OneDrive\Desktop\McDonald\backend\bin\Debug\net8.0\publish\appsettings.json
+C:\Users\nagud\OneDrive\Desktop\McDonald\backend\bin\Debug\net8.0\publish\backend.deps.json
+C:\Users\nagud\OneDrive\Desktop\McDonald\backend\bin\Debug\net8.0\publish\backend.runtimeconfig.json
+C:\Users\nagud\OneDrive\Desktop\McDonald\backend\bin\Debug\net8.0\publish\backend.staticwebassets.endpoints.json

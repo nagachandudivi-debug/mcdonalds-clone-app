@@ -1,7 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 
-import { API_BASE_URL } from './config.js'
-
 const TAX_RATE = 0.0925
 /** Synthetic id — never stored in cart state; only used for display rows */
 const PROMO_FREE_FRIES_ID = 'promo-free-classic-fries'
@@ -137,7 +135,9 @@ function App() {
       setLoading(true)
       setError(null)
       try {
-        const response = await fetch(`${API_BASE_URL}/api/menu`)
+        const response = await fetch(
+          `${import.meta.env.VITE_API_BASE_URL ?? 'http://localhost:5087'}/api/menu`
+        )
         if (!response.ok) {
           throw new Error(`Server returned ${response.status}`)
         }
@@ -150,7 +150,7 @@ function App() {
           setError(
             e instanceof Error
               ? e.message
-              : 'Could not load menu. Is the backend running on port 5087?'
+              : 'Could not load menu. Check your connection and API URL (VITE_API_BASE_URL).'
           )
           setMenuItems([])
         }
@@ -391,11 +391,14 @@ function App() {
         })),
       }
 
-      const res = await fetch(`${API_BASE_URL}/api/orders`, {
+      const res = await fetch(
+        `${import.meta.env.VITE_API_BASE_URL ?? 'http://localhost:5087'}/api/orders`,
+        {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),
-      })
+        }
+      )
 
       const data = await res.json().catch(() => ({}))
       if (!res.ok) {
